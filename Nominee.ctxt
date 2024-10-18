@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Nominee
+comment0.text=\n\ Creates\ a\ Nominee\ object\ which\ holds\ all\ the\ information\ of\ a\ county\ and\ the\ number\ of\ votes\ per\ county.\ \n\ Puts\ all\ the\ votes\ into\ the\ HashMap,\ add\ votes\ from\ a\ county,\ retrieve\ votes\nfor\ a\ county,\ calculate\ total\ votes,\ and\ provides\ a\ string\ representation\ of\ the\ nominee\n\n\ @author\ (124116)\n\ @version\ (5/2/2024)\n
+comment1.params=name
+comment1.target=Nominee(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Nominee\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ getter\ method\ that\ returms\ the\ name\ of\ the\ candidate\n\n\ @param\ none\n\ @return\ \ String\ -\ name\n
+comment3.params=county\ votes
+comment3.target=void\ mapCountyVotes(java.lang.String,\ int)
+comment3.text=\n\ puts\ the\ county\ and\ votes\ into\ the\ HashMap\n\n\ @param\ String\ county,\ int\ votes\n\ @return\ void-none\n
+comment4.params=
+comment4.target=java.util.HashMap\ getMap()
+comment4.text=\n\ getter\ method\ that\ returns\ countyVotes\ HashMap\n\n\ @param\ void\ none\n\ @return\ HashMap<String,\ Integer>\ -\ countyVotes\n
+comment5.params=county
+comment5.target=int\ getCountyVotes(java.lang.String)
+comment5.text=\n\ getter\ method\ that\ returns\ the\ number\ of\ int\ votes\ depending\ on\ the\ county\n\n\ @param\ String\ county\n\ @return\ int\ countyVotes.get(county)\n
+comment6.params=
+comment6.target=int\ getTotalVotes()
+comment6.text=\n\ gets\ the\ total\ votes,\ loops\ through\ the\ HashMap\ and\ gets\ all\ the\ votes\ and\ adds\ it\ together\n\n\ @param\ none\n\ @return\ int\ total\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ toString\ method\ that\ prints\ all\ the\ info\ out\ in\ a\ String\ format\ \n\n\ @param\ none\n\ @return\ String\ \n
+numComments=8
